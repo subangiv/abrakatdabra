@@ -3,15 +3,15 @@ function helloWorld(container) {
     const h1 = document.createElement("h1");
     const helloWorld = document.createTextNode("Hello World");
     h1.appendChild(helloWorld);
-    document.querySelector(container).appendChild(h1);
+    container.appendChild(h1);
 
 }
 
 function showFurlin(container) {
     const img = document.createElement("img");
-    img.src="svg/furlin.svg";
+    img.src= abrakatdabra.furlin;
     img.classList="furlin";
-    document.querySelector(container).appendChild(img);
+    container.appendChild(img);
 
     addClickMe(container);
 }
@@ -22,15 +22,19 @@ function addClickMe(container) {
     button.classList="change-color";
     const clickMe = document.createTextNode("Click me!");
     button.appendChild(clickMe);
-    document.querySelector(container).appendChild(button);
+    container.appendChild(button);
 
     document.querySelector(".change-color").addEventListener("click", changeColorHandler);
 }
 
 function changeColorHandler() {
-    document.querySelector(".furlin").src ="svg/duvandtfurlin.svg";
+    document.querySelector(".furlin").src = abrakatdabra.newFurlin;
 }
 
-
-module.exports.helloWorld = helloWorld;
-module.exports.furlin = { showFurlin: showFurlin, addClickMe: addClickMe, changeColorHandler: changeColorHandler}
+const abrakatdabra = {
+    helloWorld,
+    showFurlin,
+    furlin: "node_modules/@subangi/abrakatdabra/svg/furlin.svg",
+    newFurlin: "node_modules/@subangi/abrakatdabra/svg/duvandtfurlin.svg" 
+}
+export default abrakatdabra;
