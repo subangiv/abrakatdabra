@@ -4,6 +4,8 @@ Change the clothes on Furlin and ´get Hello World shown.
 
 # Installation
 
+npm install @subangi/abrakatdabra 
+
 Then...
 
 js
