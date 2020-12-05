@@ -1,8 +1,8 @@
-# THIS IS A TEST - DO NOT USE
+
 
 # What is this?
 
-Change the clothes on Furlin and ´get Hello World shown.
+Just a test, don't use
 
 # Installation
 
