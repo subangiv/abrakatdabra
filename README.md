@@ -2,7 +2,7 @@
 
 # What is this?
 
-Just a test, don't use
+Just a test, don't use!
 
 # Installation
 
