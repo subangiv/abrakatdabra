@@ -34,7 +34,7 @@ function changeColorHandler() {
 const abrakatdabra = {
     helloWorld,
     showFurlin,
-    furlin: "node_modules/@subangi/abrakatdabra/svg/furlin.svg",
-    newFurlin: "node_modules/@subangi/abrakatdabra/svg/duvandtfurlin.svg" 
+    furlin: "/svg/furlin.svg",
+    newFurlin: "/svg/duvandtfurlin.svg" 
 }
 export default abrakatdabra;

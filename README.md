@@ -1,6 +1,6 @@
 # What is this?
 
-Change the clothes on Furlin and ´get Hello World shown.
+Just testing, do not use
 
 # Installation
 
