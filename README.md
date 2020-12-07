@@ -1,6 +1,12 @@
+
+
 # What is this?
 
+<<<<<<< HEAD
 Just testing, do not use
+=======
+Just a test, don't use!
+>>>>>>> dc78707c85cd36f327e1c59d52322061f34fd6b1
 
 # Installation
 
